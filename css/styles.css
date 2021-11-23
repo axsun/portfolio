@@ -1,0 +1,102 @@
+/*
+COLOR PALETTE
+#000000 - black
+#595f72 - gray
+#eeeeee - light gray
+#262a10 - dark green
+#febf92 - peach
+#f4ebd9 - beige
+*/
+
+
+/* Global styles
+------------------------------------*/
+body {
+  color: #595f72;
+  background: #eeeeee;
+  font-family: "Inconsolata"; 
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+}
+.content-wrap{
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Navbar ------------------------------*/
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000000;
+  top: 0;
+  position: fixed;
+  width:100%;
+}
+
+.navbar li{
+  float:right;
+}
+.navbar li a:hover{
+  background: #262a10;
+}
+.navbar li a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: #262a10;
+  color: #f4ebd9;
+/*   margin: 40px 50px 20px 50px; */
+  margin: 40px 0px 20px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Courier New";
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+header p {
+  text-align: justify;
+  padding: 0px 20px 10px 20px;
+}
+
+
+
+/* Projects
+------------------------------------*/
+.projects {
+/*   background: #F7FFF7; */
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+/*   background: #A1C6D7; */
+}
+
+
+/* Education
+------------------------------------*/
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+/*   background: #343434; */
+/*   color: #F7FFF7; */
+}
+
