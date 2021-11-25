@@ -14,12 +14,12 @@ COLOR PALETTE
 body {
   color: #595f72;
   background: #eeeeee;
-  font-family: "Inconsolata"; 
+  font-family: "Inconsolata"; sans-serif;
   margin: 0;
   padding: 0;
 }
 img {
-  width: 300px;
+  width: 700px;
 }
 .content-wrap{
   width: 800px;
@@ -67,6 +67,10 @@ header {
   right: 0;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 header p {
   text-align: justify;
   padding: 0px 20px 10px 20px;
@@ -77,15 +81,19 @@ header p {
 /* Projects
 ------------------------------------*/
 .projects {
-/*   background: #F7FFF7; */
+  margin: auto;
 }
 
 
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-/*   background: #A1C6D7; */
+  width: 850px;
+  border-style: dashed;
+  margin: auto;
 }
+
+
 
 
 /* Education
